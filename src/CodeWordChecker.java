@@ -12,6 +12,8 @@ public class CodeWordChecker implements StringChecker
     public CodeWordChecker(String str)
     {
         this.str = str;
+        min = 6;
+        min = 20;
     }
     public boolean isValid(String str1)
     {
